@@ -1005,3 +1005,70 @@
     font-size: 1.4rem;
     color: #555;
 }
+
+/* Product item */
+
+.home-product-item {
+    background-color: var(--white-color);
+    margin-top: 10px;
+}
+
+.home-product-item__img {
+    padding-top: 100%;
+    background-repeat: no-repeat;
+    background-size: contain; /*Xu ly anh khi to qua, chi nhin thay 1 goc*/
+    background-position: center; /*Hien thi trong tam buc anh*/
+}
+.home-product-item__name {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: var(--text-color);
+    line-height: 1.8rem;
+    height: 3.6rem; /*Cat dong khi ten san pham qua dai*/
+    margin: 10px;
+    overflow: hidden; /*Ẩn nội dung khi dài quá chiều cao của thẻ*/
+    display: block; 
+    display: -webkit-box;
+    -webkit-box-orient: vertical; /*Chiều dọc*/
+    -webkit-line-clamp: 2; /*Vị trí của dấu ... khi cắt dòng đang để là dòng số 2*/
+    
+}
+.home-product-item__price {
+
+}
+.home-product-item__old {
+
+}
+.home-product-item__current {
+
+}
+.home-product-item__action {
+
+}
+.home-product-item__like {
+
+}
+.home-product-item__rating {
+
+}
+.home-product-item__origin {
+
+}
+.home-product-item__brand {
+
+}
+.home-product-item__origin-name {
+
+}
+.home-product-item__favorite {
+
+}
+.home-product-item__sale-off {
+
+}
+.home-product-item__sale-off-percent {
+
+}
+.home-product-item__sale-off-label {
+
+}
