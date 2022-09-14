@@ -936,7 +936,6 @@
 
 /* Home sort of filter */
 .home-filter {
-    
     display: flex;
     align-items: center;
     padding: 12px 22px;
@@ -1008,11 +1007,38 @@
 
 /* Product item */
 
+.home-product {
+    margin-bottom: 10px;
+}
+
+
 .home-product-item {
+    display: block;
+    text-decoration: none;
     position: relative;
     background-color: var(--white-color);
     margin-top: 10px;
+    border-bottom-left-radius: 2px ;
+    border-bottom-right-radius: 2px ;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+    /* Tham số thứ nhất là occes x không di chuyển chiều ngang
+        Tham số thứ 2 là 
+        Tham số thứ 3 là radius của blur (độ mờ của nó)
+    */
+
+    transition: transform linear 0.1s;
+    /* Khi sử dụng transform thì phải khai báo will-change
+        để trình duyệt hiểu được sự thay đổi    
+    */
+    will-change: transform;
+
+
 }
+
+.home-product-item:hover {
+    box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.07);
+    transform: translateY(-1px); /*Để nó chạy ngược lên 1 px*/
+}   
 
 .home-product-item__img {
     padding-top: 100%;
