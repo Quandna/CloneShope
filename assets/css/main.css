@@ -326,7 +326,7 @@
 }
 .header__notify-descriotion{
     display: block;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     line-height: 1.6rem;
     color: #756f6e;
     margin-top: 4px;
@@ -404,7 +404,7 @@
 }
 
 .auth-form__policy-text{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     line-height: 1.8rem;
     text-align: center;
     padding: 0 12px;
@@ -617,7 +617,7 @@
     justify-content:space-between;
 }
 .header__cart-item-descriotion{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: #757575;
     font-weight: 300;
 }
@@ -685,9 +685,9 @@
     right: -2px;
     padding: 1px 7px;
     color: var(--primary-color);
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     background-color: var(--white-color);
-    line-height: 1.2rem;
+    line-height: 1.1rem;
     border: 2px solid #ee4d2d;
     border-radius: 10px;
 }
@@ -800,7 +800,7 @@
 }
 
 .header__search-option-item i {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: var(--primary-color);
     margin-left:12px;
     display: none;
@@ -858,7 +858,7 @@
 
 .header__search-history-item a {
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: var(--text-color);
     line-height: 38px;
     display: block;
@@ -1099,7 +1099,7 @@ i.home-product-item__like-icon-fill { /* Thêm chữ i vào trước để ưu t
     justify-content: space-between;
     margin: 3px 10px 0;
     color: #595959;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 300;
 }
 
@@ -1139,21 +1139,61 @@ i.home-product-item__like-icon-fill { /* Thêm chữ i vào trước để ưu t
     margin: 0 2px 0 5px;
 }
 
-.home-product-item__brand {
+/* Css phần giảm giá góc trên phải */
+
+.home-product-item__sale-off {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 40px;
+    height: 36px;
+    text-align: center;
+    background-color: rgba(255, 216, 64, 0.94);
+}
+
+/* Làm phần đuôi cờ dưới của phần giảm giá */
+
+.home-product-item__sale-off::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    border-width: 0 20px 5px;
+    border-style: solid;
+    color:rgba(255, 216, 64, 0.94);
+    border-color: transparent currentColor transparent currentColor ;
 
 }
+
+.home-product-item__sale-off-percent {
+    color: #ee4d2d;
+    font-weight: 600;
+    font-size: 1.1rem;
+    line-height: 1.1rem;
+    position: relative;
+    top: -1px;
+}
+
+.home-product-item__sale-off-label {
+    font-size: 1.1rem;
+    line-height: 1.1rem;
+    color: var(--white-color);
+    position: relative;
+    top: -7px;
+    font-weight: 600;
+}
+
+
+.home-product-item__brand {
+}
+
 .home-product-item__origin-name {
 
 }
+
 .home-product-item__favorite {
 
 }
-.home-product-item__sale-off {
 
-}
-.home-product-item__sale-off-percent {
 
-}
-.home-product-item__sale-off-label {
 
-}
