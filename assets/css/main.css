@@ -1241,22 +1241,13 @@ i.home-product-item__like-icon-fill { /* Thêm chữ i vào trước để ưu t
     font-weight: 600;
 }
 
-
-.home-product-item__brand {
-}
-
-.home-product-item__origin-name {
-
-}
-
-.home-product-item__favorite {
-
-}
-
 /* Pagination */
 .home-product__pagination {
     margin:48px 0 32px 0;
 }
+
+
+/* footer */
 
 
 
