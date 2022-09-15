@@ -210,3 +210,42 @@ html {
 .selec-input__link:hover {
     color: var(--primary-color);
 }
+
+/* Pagination */
+
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+.pagination-item {
+    margin: 0 12px;
+}
+
+.pagination-item--active .pagination-item__link {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+.pagination-item--active .pagination-item__link:hover {
+    background-color: #ed5c3f;
+    /* filter: brightness(96%); */
+}
+
+.pagination-item__link {
+    --height: 30px;
+    font-weight: 300;
+    display: block;
+    text-decoration: none;
+    font-size: 2rem;
+    color: #939393;
+    min-width: 40px;
+    text-align: center;
+    height: var(--height);
+    line-height: var(--height);
+    border-radius: 2px;
+}
+.pagination-item__icon {
+
+}

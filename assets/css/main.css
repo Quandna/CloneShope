@@ -1253,5 +1253,10 @@ i.home-product-item__like-icon-fill { /* Thêm chữ i vào trước để ưu t
 
 }
 
+/* Pagination */
+.home-product__pagination {
+    margin:48px 0 32px 0;
+}
+
 
 
